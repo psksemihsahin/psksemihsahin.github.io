@@ -1,0 +1,18 @@
+h1{
+  font-family: lobster;
+  font-size: 50px;
+  border-bottom: 2px solid;
+}
+
+h2{
+  font-family: lobster;
+  font-size: 40px;
+}
+img {
+  border-radius: 15px 50px;
+}
+
+#footer {
+  margin-bottom: 1cm;
+}
+
