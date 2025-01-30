@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Psychologist Semih Şahin</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<body>
+  <div class="container">
+    <div class="well text-center">
+      <h1>Psychologist Semih Şahin</h1>
+      <br></br>
+      <img src="https://res.cloudinary.com/digquktgx/image/upload/v1738095205/Screenshot_2025-01-28_231223_bhy7dp.png" class="center-block img-responsive">
+      <br></br>
+    </div>
+      <div class="well">
+        <h2 class="text-center">Biography</h2>
+        <div class="well">
+          <p><em>Semih Şahin</em> (born 1998) is a licensed psychologist with expertise in neuroscience and behavioral psychology. He earned his MSc in Neuroscience from Ege University, where his research focused on the effects of intermittent fasting and aerobic exercise on cognitive and behavioral performance. He also holds a BSc in Psychology from Ankara University, with a thesis examining the relationship between birth methods and error detection abilities.
+
+            With diverse experience in clinical practice, research, and recruitment, Semih specializes in cognitive-behavioral therapy and exploring the connections between neuroscience and psychology. His professional roles include working as a freelance psychologist at Evimdeki Psikolog, a talent acquisition specialist, and a researcher in various projects.
+            
+            Semih has presented his research at international conferences and contributed to publications on topics such as empathy, oxytocin’s role in birth-related behaviors, and the effects of astrocyte-derived TGF Beta on cognitive performance. He is skilled in tools such as Python, SPSS, PsychoPy, and more, adopting a scientific, data-driven approach in his work.
+            
+            Fluent in English and conversational in German, Semih is passionate about combining academic research with practical applications to enhance mental well-being.</p>
+
+        </div>
+        <div class="well">
+          <h2 class="text-center">Achievements</h2>
+          
+          <ul class="list-group">
+            <li class="list-group-item"> Presented research at international conferences, including the 32nd International Congress of Psychology in Prague and the 7th International Acharaka Congress in Uzbekistan.
+
+
+
+            </li>
+                        <li class="list-group-item">Published scientific work on empathy and cognitive performance, contributing to the understanding of neuroscience and psychology.
+            Successfully combined expertise in psychology and neuroscience to examine the effects of intermittent fasting and aerobic exercise on brain function and behavior.</li>
+                        <li class="list-group-item">Founded the Ankara University Psychology Student Community and led initiatives to support students’ academic and professional growth.</li>
+                        <li class="list-group-item">Worked as a talent acquisition specialist, enhancing organizational performance by combining psychological insights with recruitment expertise. 
+                        </li> 
+            
+          </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+  <br>
+  <center>
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="semihshin@gmail.com"
+  action="https://script.google.com/macros/s/AKfycbwEXlRuKzteVpYvQ159ckBdYQ4n3ZSiVmpm8OiSnisavnJLVIjED0JNZtML_dDapR746Q/exec">
+    <div class="form-elements"><br>
+      <div style="background:none;border:1px solid rgb(36, 36, 36);width: 400px;height: 750px;"><br>
+        <h1 class="content-head" style="font-size: 2.3em;">Contact me!</h1>
+        <br><br>
+         <h4 style="margin-left: -255px;font-size: 1.3em;">Name</h4><br>
+        <input type="text" name="name" required="" style="font-size: 1em;width: 300px;"/><br><br>
+
+        <h4 style="margin-left: -255px;font-size: 1.3em;">Email</h4><br>
+        <input type="email" name="email" required="" style="font-size: 1em;width: 300px;"/><br><br>
+
+         <h4 style="margin-left: -255px;font-size: 1.3em;">Phone</h4><br>
+         <input type="number"  name="phone" required="" style="font-size: 1em;width: 300px;"/><br><br>
+      
+        <h4 style="margin-left: -110px;font-size: 1.3em;">How can I help you?</h4><br>
+        <textarea  name="message" rows="5" cols="22" required="" style="font-size: 1.3em;width: 300px;"></textarea><br><br>
+    
+        <button style="float: center; width: 100px;height: 27px;font-size: 1.1em;margin-right: 48px;">
+        Send</button><br>
+      </div>
+    </div>
+
+    <!-- Thankyou_message --><br>
+    <div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+      <h4>Thanks for contacting me!</h4>
+
+    </div>
+  </form>
+  <script data-cfasync="false" type="text/javascript">
+    
+   (function() {
+  function validEmail(email) {
+    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return re.test(email);
+  }
+
+  function validateHuman(honeypot) {
+    if (honeypot) {
+      console.log("Robot Detected!");
+      return true;
+    } else {
+      console.log("Welcome Human!");
+    }
+  }
+  function getFormData(form) {
+    var elements = form.elements;
+
+    var fields = Object.keys(elements).filter(function(k) {
+          return (elements[k].name !== "honeypot");
+    }).map(function(k) {
+      if(elements[k].name !== undefined) {
+        return elements[k].name;
+      }else if(elements[k].length > 0){
+        return elements[k].item(0).name;
+      }
+    }).filter(function(item, pos, self) {
+      return self.indexOf(item) == pos && item;
+    });
+
+    var formData = {};
+    fields.forEach(function(name){
+      var element = elements[name];
+      formData[name] = element.value;
+      if (element.length) {
+        var data = [];
+        for (var i = 0; i < element.length; i++) {
+          var item = element.item(i);
+          if (item.checked || item.selected) {
+            data.push(item.value);
+          }
+        }
+        formData[name] = data.join(', ');
+      }
+    });
+
+    // add form-specific values into the data
+    formData.formDataNameOrder = JSON.stringify(fields);
+    formData.formGoogleSheetName = form.dataset.sheet || "Sayfa1"; // default sheet name
+    formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+    console.log(formData);
+    return formData;
+  }
+
+  function handleFormSubmit(event) {  
+    event.preventDefault();           
+    var form = event.target;
+    var data = getFormData(form);         
+    if( data.email && !validEmail(data.email) ) {   
+      var invalidEmail = form.querySelector(".email-invalid");
+      if (invalidEmail) {
+        invalidEmail.style.display = "block";
+        return false;
+      }
+    } else {
+      disableAllButtons(form);
+      var url = form.action;
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', url);
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = function() {
+          console.log(xhr.status, xhr.statusText);
+          console.log(xhr.responseText);
+          var formElements = form.querySelector(".form-elements")
+          if (formElements) {
+            formElements.style.display = "none"; // hide form
+          }
+          var thankYouMessage = form.querySelector(".thankyou_message");
+          if (thankYouMessage) {
+            thankYouMessage.style.display = "block";
+          }
+          return;
+      };
+      var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+      }).join('&');
+      xhr.send(encoded);
+    }
+  }
+  
+  function loaded() {
+    console.log("Contact form submission handler loaded successfully.");
+    var forms = document.querySelectorAll("form.gform");
+    for (var i = 0; i < forms.length; i++) {
+      forms[i].addEventListener("submit", handleFormSubmit, false);
+    }
+  };
+  document.addEventListener("DOMContentLoaded", loaded, false);
+
+  function disableAllButtons(form) {
+    var buttons = form.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].disabled = true;
+    }
+  }
+})();
+
+
+  </script>
+</center>
+</body>
+
+
+
+</div>
+<br></br>
+<div class="row" id="footer">
+  <div class="col-md-8">
+  <h6 class="text-center">Coded By <a target="blank">Semih</a></h6>
+  </div>
+  <div class="col-md-4">
+    <h5>Semih Şahin's social media</h5>
+    <a href="https://www.youtube.com/@semih0106" target="blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+    <a href="semihs.jpg" target="instagram.com/semihs.jpg"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+  </div>
+</div>
+</div>
+</body>
+<!doctype html>
+<html>
